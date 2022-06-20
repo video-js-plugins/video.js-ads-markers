@@ -43,3 +43,22 @@ const markerData = [
 player.adsMarker(markerData)
 
 ```
+
+# API
+
+## Marker
+ **Property**   | **Description**                                                      | **Type**                 | **Default** 
+----------------|----------------------------------------------------------------------|--------------------------|-------------
+ `time`         | The time at which the marker will be placed. This value in `seconds` | float                    | undefined   
+ `render`       | Content to be rendered in the videojs                                | string | react component | undefined   
+ `stopOnMarker` | Stop video when progress hits marker                                 | boolean                  | true        
+ `marker`       | Show or hide marker on video progress bar to all marker data.        | boolean                  | undefined   
+ `payload`      | Any custom data you want to pass through marker                      | object                   | {}          
+ 
+ 
+ ## Config
+ **Property**       | **Description**                                                                | **Type**       | **Default** 
+--------------------|--------------------------------------------------------------------------------|----------------|-------------
+ `stopOnMarker`     | Stop video when progress hits marker to all marker data.                       | boolean        | true        
+ `onDetectedMarker` | Callback when progress hits marker. with one parameter containing marker data. | function(data) | undefined   
+ `marker`           | Show or hide marker on video progress bar to all marker data.                  | boolean        | true        
