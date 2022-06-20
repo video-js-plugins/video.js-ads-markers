@@ -4,6 +4,7 @@ With this plugin you possible to add markers to videojs progress and render some
 # Requirment
 - ReactJs version >= 17.0.2
 - Video.Js version ^7.18.1
+
 Don't worry. This requirment will auto install if you haven't installed it.
 
 # Quick Use
