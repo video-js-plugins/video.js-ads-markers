@@ -1,14 +1,14 @@
 # VideoJS Ads Marker Plugin
 With this plugin you possible to add markers to videojs progress and render some component (HTML) inside videojs when progress hits markers.
 
-# Requirment
+## Requirment
 - ReactJs version >= 17.0.2
 - Video.Js version ^7.18.1
 
 Don't worry. This requirment will auto install if you haven't installed it.
 
 
-# Install
+## Install
 ```
 npm i @video-js-plugins/videojs-ads-marker
 ```
@@ -18,7 +18,7 @@ or with yarn
 yarn add @video-js-plugins/videojs-ads-marker
 ```
 
-# Quick Use
+## Quick Use
 ```
 import '@video-js-plugins/videojs-ads-markers'
 
@@ -44,9 +44,9 @@ player.adsMarker(markerData)
 
 ```
 
-# API
+## API
 
-## Marker
+### Marker
  **Property**   | **Description**                                                      | **Type**                 | **Default** 
 ----------------|----------------------------------------------------------------------|--------------------------|-------------
  `time`         | The time at which the marker will be placed. This value in `seconds` | float                    | 0   
@@ -56,7 +56,7 @@ player.adsMarker(markerData)
  `payload`      | Any custom data you want to pass through marker                      | object                   | {}          
  
  
- ## Config
+ ### Config
  **Property**       | **Description**                                                                | **Type**       | **Default** 
 --------------------|--------------------------------------------------------------------------------|----------------|-------------
  `stopOnMarker`     | Stop video when progress hits marker to all marker data.                       | boolean        | true        
