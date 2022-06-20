@@ -7,6 +7,17 @@ With this plugin you possible to add markers to videojs progress and render some
 
 Don't worry. This requirment will auto install if you haven't installed it.
 
+
+# Install
+```
+npm i @video-js-plugins/videojs-ads-marker
+```
+
+or with yarn
+```
+yarn add @video-js-plugins/videojs-ads-marker
+```
+
 # Quick Use
 ```
 import '@video-js-plugins/videojs-ads-markers'
