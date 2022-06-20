@@ -49,7 +49,7 @@ player.adsMarker(markerData)
 ## Marker
  **Property**   | **Description**                                                      | **Type**                 | **Default** 
 ----------------|----------------------------------------------------------------------|--------------------------|-------------
- `time`         | The time at which the marker will be placed. This value in `seconds` | float                    | undefined   
+ `time`         | The time at which the marker will be placed. This value in `seconds` | float                    | 0   
  `render`       | Content to be rendered in the videojs                                | string | react component | undefined   
  `stopOnMarker` | Stop video when progress hits marker                                 | boolean                  | true        
  `marker`       | Show or hide marker on video progress bar to all marker data.        | boolean                  | undefined   
