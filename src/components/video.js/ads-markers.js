@@ -47,7 +47,7 @@ function registerMarker(player, markers, configs) {
             const markerStyle = {
                 width      : '5px',
                 height     : '100%',
-                background : '#e5c80',
+                background : 'rgb(229, 200, 0)',
                 position   : 'absolute'
             }
             Object.assign(markerEl.style, markerStyle, configs.styles.marker);
