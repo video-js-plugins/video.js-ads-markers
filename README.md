@@ -1,6 +1,8 @@
 # VideoJS Ads Marker Plugin
 With this plugin you possible to add markers to videojs progress and render some component (HTML) inside videojs when progress hits markers.
 
+![Demo ads marker](public/demo.gif)
+
 ## Requirment
 - ReactJs version >= 17.0.2
 - Video.Js version ^7.18.1
