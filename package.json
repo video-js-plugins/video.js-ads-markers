@@ -16,7 +16,9 @@
     "keywords": [
       "videojs",
       "ads marker",
-      "video js marker"
+      "video js marker",
+      "videojs-skin",
+      "videojs-plugin"
     ],
     "bugs": {
       "url": "https://github.com/video-js-plugins/video.js-ads-markers/issues"
